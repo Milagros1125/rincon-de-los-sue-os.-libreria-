@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=New+Amsterdam&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+body{
+	background-color: #C4F8F3;
+}
+h1{
+color: black;
+font-family:  "Dancing Script", cursive;
+text-align: center;
+} 
+
+
+h2{
+color: black;
+font-family: "Playfair Display", serif;
+}
+
+h3{color:#6666;
+font-family: "New Amsterdam", sans-serif;
+}
+
+div{
+	 text-align: center;
+} 
+body, div, fieldset{
+     margin: 0;
+     padding: 25;
+     border: 0;
+     font-size: 100%;
+     font: inherit;
+ }
+
+
+ .cajabuscar {
+     float: none;
+     width: 100%;
+     max-width: 453px;
+     margin-bottom: 25px;
+     margin-top: 29px;
+     margin-left: auto;
+     margin-right: auto;
+     display: inline-block;
+     text-align: left;
+ }
+
+ #buscarform {
+     padding: 0;
+     float: left;
+     clear: both;
+     width: 100%;
+     position: relative;
+ }
+ #buscarform fieldset { float: left }
+
+ #buscarform .search {
+     font-size: 20px;
+     top: 0px;
+     color: #FFF;
+     background: #33BCF2;
+     position: absolute;
+     right: 0;
+     top: 0;
+     padding: 9px;
+     height: 50px;
+     width: 24px;
+     text-align: center;
+ }
+ #buscarform fieldset { width: 100% }
+
+ #s {
+     width: 100%;
+     background-color: #fff;
+     float: left;
+     padding: 8px 0;
+     text-indent: 10px;
+     color: #555555;
+     border: 1px solid #fff; 
+     box-sizing: border-box;
+     height: 42px;
+ }
+
+ .button{
+     right: 0;
+     top: 0;
+     padding: 25px 0;
+     float: right;
+     border: 0;
+     width: 42px;
+     height: 42px;
+     cursor: pointer;
+     text-align: left;
+     padding-top: 10px;
+     color: #a4a4a4;
+     transition: all 0.25s linear;
+     background: transparent;
+     z-index: 10;
+     position: absolute;
+     border: 0;
+     vertical-align: top;
+ }
+
+<style>
+.success {color.blue;}
+</style>
